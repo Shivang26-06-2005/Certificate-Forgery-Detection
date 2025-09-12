@@ -23,8 +23,8 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 # ----------------------------
 # Model Configuration
 # ----------------------------
-DETECTION_MODEL_PATH = r"D:\Certificate-Detection\Second Dataset\outputs\certificate_retrain2\weights\best.pt"
-FORGERY_MODEL_PATH = r"D:\Certificate-Detection\First Dataset\certificate_forgery\weights\best.pt"
+DETECTION_MODEL_PATH = r"Forgery.pt"
+FORGERY_MODEL_PATH = r"Detection.pt"
 
 # Thresholds
 IOU_THRESHOLD = 0.3
@@ -234,4 +234,5 @@ if __name__ == '__main__':
         app.run(debug=True, host='0.0.0.0', port=5001)
     else:
         logger.error("Failed to load models. Please check model paths.")
+
         print("❌ Failed to load models. Please check the model paths in the configuration.")
