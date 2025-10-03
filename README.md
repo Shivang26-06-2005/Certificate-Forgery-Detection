@@ -4,3 +4,7 @@ This uses two datasets from ROBOFLOW which includes certificates.First dataset i
 This project uses two models and uses YOLO-8 as a object detection tool for detection.The first model is used to detect the important regions in a Certificate and another model is used to detect genuity of the same
 certificate.
 
+The links to datasets:
+1.https://universe.roboflow.com/bnm/certificate-forgery-detection-avxar/dataset/1
+2.https://universe.roboflow.com/projects-huaqh/detecting-fake-certificates/dataset/1/images
+
